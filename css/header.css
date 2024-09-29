@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-header {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.navegator {
+    display: flex;
+}
+
+.list-header {
+    display: flex;
+    list-style-type: none;
+}
+
+.list-atribute {
+    margin: 0 10px;
+}
+
+.bth-login {
+    border: none;
+    border-radius: 10px;
+    padding: 6px 15px;
+    background-color: black;
+    color: white;
+    &:hover {
+        background-color: white;
+        color: black;
+        transition: 1s all ease;
+    }
+}

@@ -1,7 +1,24 @@
-.formContainer {
+.form-login-not-visible {
+    display: none;
+}
 
+.formContainer {
+    display: block;
+    /*Poner ensima del resto*/
+    position: fixed;
+    top: 150px;
+    width: 100 vw;
+    height: 100 vh;
+}
+
+.containerformJustify {
+    display: flex;
+    justify-content: center;
 }
 
 .containerElementForm {
-    
+    display: grid; /*Ordena los elementos de arriba hacia abajo*/
+    background-color: bisque;
+    padding: 20px;
+    width: 200px;
 }

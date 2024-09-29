@@ -4,21 +4,21 @@
 
 .formContainer {
     display: block;
-    /*Poner ensima del resto*/
     position: fixed;
     top: 150px;
-    width: 100vw; /*vw ---> significa que ocupara un ancho en total de la pagina*/
+    width: 100vw;
     height: 100vh;
 }
 
 .containerformJustify {
     display: flex;
     justify-content: center;
+    
 }
 
 .containerElementForm {
-    display: grid; /*Ordena los elementos de arriba hacia abajo*/
     background-color: bisque;
+    display: grid;
     padding: 20px;
     width: 200px;
 }

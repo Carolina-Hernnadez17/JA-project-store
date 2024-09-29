@@ -7,8 +7,8 @@
     /*Poner ensima del resto*/
     position: fixed;
     top: 150px;
-    width: 100 vw;
-    height: 100 vh;
+    width: 100vw; /*vw ---> significa que ocupara un ancho en total de la pagina*/
+    height: 100vh;
 }
 
 .containerformJustify {

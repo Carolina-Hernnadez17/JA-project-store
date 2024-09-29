@@ -10,3 +10,7 @@
     rgb(71, 158, 245));
     border-radius: 15px;
 }
+
+.card-productos img {
+    height: 200px;
+}

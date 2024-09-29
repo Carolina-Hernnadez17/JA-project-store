@@ -1,0 +1,12 @@
+.container-card-product {
+    display: flex;
+    flex-wrap: wrap; /*Pone en filas y columnas*/
+    gap: 30px; /*Espacio que tendra cualquier elemento*/
+    margin: 20px;
+}
+
+.card-productos {
+    background: linear-gradient(rgb(161, 204, 247) ,
+    rgb(71, 158, 245));
+    border-radius: 15px;
+}
